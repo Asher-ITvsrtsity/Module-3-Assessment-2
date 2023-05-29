@@ -1,0 +1,350 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+html{
+    height: 100%;
+}
+
+body{
+    font-family: Montserrat, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #f5f3eb;
+}
+
+
+
+/*============================== Header ==============================*/
+
+.header{
+    background-color: #f5f3eb;
+    width: 100%;
+    height: 50px;
+    top: 0;
+
+    position: fixed;
+    overflow: hidden;
+    text-align: center;
+}
+
+.header i{
+    float: left;
+    padding: 17px 0px 0px 17px;
+    color: rgb(34, 34, 34);
+}
+
+.header img{
+    width: 150px;
+    padding-top: 14px;
+    padding-right: 20px;
+}
+
+/*============================== Home Page ==============================*/
+
+#home-logo-img{
+    color: #1a1a1a;
+    width: 50px;
+    display: block;
+    margin: auto;
+    padding: 25px 10px 10px 10px;
+}
+
+#home-logo-text{
+    width: auto;
+    display: block;
+    margin: auto;
+    padding: 50px 10px 25px 10px;
+}
+
+.page-title-home h1{
+    font-weight: 900;
+    font-style: italic;
+    text-align: center;
+    color: #1a1a1a;
+    padding-top: 10px;
+    padding-bottom: 25px;
+}
+
+
+/*----------------- Home Page Menu -----------------*/
+.home-menu-item{
+    height: 80px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #f5f3eb;
+    font-size: 25px;
+    font-weight: 800;
+    text-align: center;
+    border: 0px;
+    background-color: #1a1a1a;
+    border-radius: 2rem;
+    display: block;
+    margin: auto;
+    width: 80%;
+}
+
+.home-menu-item p{
+    padding-top: 25px;
+}
+
+.home-menu-item :hover{
+    height: 55px;
+    transition: 200ms;
+    background-color: #38944f;
+    border-radius: 2rem;
+}
+
+/*============================== Meals Page ==============================*/
+
+#meals{
+    padding-top: 50px;
+}
+
+.page-title h1{
+    font-weight: 900;
+    font-style: italic;
+    text-align: center;
+    color: #f5f3eb;
+    padding-top: 120px;
+}
+
+/*----------------- Meals Page Menu -----------------*/
+.body-meals{
+    background-color: #1a1a1a;
+}
+
+.meals-list a{
+    text-decoration: none;
+}
+
+
+.meals-list-item {
+    border: 5px solid #f5f3eb;
+    border-radius: 2rem;
+    margin: 10px;
+    display: flex;
+}
+
+.thumbnail {
+    flex: 0 0 auto; /* Prevent thumbnail from growing in size */
+    padding: 10px;
+}
+
+.thumbnail img {
+    max-width: 100%;
+    height: auto;
+    border: 0;
+    border-radius: 20px;
+}
+
+.meal-info {
+    flex: 1; /* Take remaining space */
+    padding: 10px;
+}
+
+.meals-list-item h1{
+    font-weight: 800;
+    font-size: 20px;
+    color: #f5f3eb;
+    padding-left: 10px;
+}
+
+.meals-list-item p{
+    font-style: italic;
+    font-weight: 600;
+    font-size: 15px;
+    color: #dadada;
+    padding-left: 10px;
+    margin-top: -7px;
+}
+
+.meals-list-item h2{
+    font-weight: 800;
+    font-size: 15px;
+    color: #dadada;
+    padding-left: 10px;
+    margin-top: -7px;
+}
+
+.meals-list-item i{
+    float: right;
+    color: #f5f3eb;
+    padding-right: 20px;
+    padding-top: 15px;
+}
+
+/*============================== Recipe Page ==============================*/
+
+#recipe{
+    padding-top: 50px;
+}
+
+/*----------------- Recipe Details -----------------*/
+
+/* Input Box Styles */
+.input-box-container{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.input-box {
+    height: 50px;
+    width: 80%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+  
+.input-box:focus {
+    outline: none;
+    border-color: #000000;
+}
+
+.recipe-details img{
+    width: 100%;
+}
+
+.recipe-details h1{
+    font-size: 25px;
+    font-weight: 800;
+    text-align: center;
+    border: 3px solid #1a1a1a;
+    border-radius: 1rem;
+    margin: 10px;
+    padding: 5px;
+}
+
+.recipe-details h2{
+    font-size: 20px;
+    text-align: left;
+    margin: 0;
+    margin-left: 10px;
+}
+
+.recipe-details h3{
+    font-size: 20px;
+    text-align: center;
+    margin: 0;
+    margin-left: 10px;
+}
+
+.recipe-details-info {
+    text-align: center;
+    padding-left: 10px;
+}
+
+.recipe-details-info p{
+    font-size: 13px;
+    display: inline-block;
+}
+
+.recipe-details-ingredients label{
+    line-height: 25px;
+}
+
+.recipe-details-ingredients input{
+    margin-left: 20px;
+}
+
+.recipe-details-steps p{
+    margin: 10px 20px;
+}
+
+.recipe-details-steps {
+    
+    padding-top: 20px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+  }
+
+.order-button {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #38944f;
+    border: none;
+    border-radius: 2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .order-button:hover {
+    background-color: #2b723c;
+  }
+  
+  .order-button:active {
+    background-color: #000000;
+  }
+
+/*============================== Order Accepted ==============================*/
+
+.order-body h1{
+    padding-top: 100px;
+    text-align: center;
+    font-weight: 900;
+    font-style: italic;
+}
+
+.order-body a{
+    text-decoration: none;
+}
+
+.order-body p{
+    text-align: center;
+    margin: 100px 5rem;
+}
+
+.order-button p{
+    margin: 10px;
+}
+
+/*============================== Responsive Layout ==============================*/
+
+@media only screen and (min-width: 600px) {
+    #meals{
+        margin: auto;
+        width: 80%;
+    }
+
+    #recipe{
+        width: 80%;
+        margin: auto;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    #meals{
+        margin: auto;
+        width: 60%;
+    }
+    
+    #recipe{
+        width: 60%;
+        margin: auto;
+    }
+}
+
+@media only screen and (min-width: 1500px) {
+    #meals{
+        margin: auto;
+        width: 40%;
+    }
+    
+    #recipe{
+        width: 40%;
+        margin: auto;
+    }
+}
